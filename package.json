@@ -1,0 +1,10 @@
+{
+	"name": "https-demo",
+	"description": "Demo app to redirect http requests to https",
+	"version": "0.0.1",
+	"dependencies": {
+		"express": "4.x"
+	},
+	"author": "Tony Erwin",
+	"license": "Apache License, Version 2.0"
+}
