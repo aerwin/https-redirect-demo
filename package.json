@@ -1,5 +1,5 @@
 {
-	"name": "https-demo",
+	"name": "https-redirect-demo",
 	"description": "Demo app to redirect http requests to https",
 	"version": "0.0.1",
 	"dependencies": {

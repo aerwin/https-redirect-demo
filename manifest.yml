@@ -1,7 +1,7 @@
 applications:
 - disk_quota: 1024M
-  host: https-demo
-  name: https-demo
+  host: https-redirect-demo
+  name: https-redirect-demo
   command: node server.js
   path: .
   domain: mybluemix.net
