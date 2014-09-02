@@ -1,9 +1,10 @@
 applications:
-- disk_quota: 1024M
-  host: https-redirect-demo
-  name: https-redirect-demo
+- name: https-redirect-demo
+
+  # using the random symbol will assign a unique hostname for this app
+  host: https-redirect-${random-word}
+  
   command: node server.js
-  path: .
-  domain: mybluemix.net
-  instances: 1
+
   memory: 128M
+  
