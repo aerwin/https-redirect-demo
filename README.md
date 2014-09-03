@@ -65,15 +65,15 @@ You should then see a bunch of console output that eventually ends with somethin
 	requested state: started
 	instances: 1/1
 	usage: 128M x 1 instances
-	urls: https-redirect-${random-word}.mybluemix.net
+	urls: redirect-demo-${random-word}.mybluemix.net
 
      state     since                    cpu    memory          disk   
 	#0   running   2014-09-02 03:19:59 PM   0.0%   15.7M of 128M   25.1M of 1G 
 
 After the successful push, you should be able to run your app by pointing your browser at either:
 
-	https://https-redirect-${random-word}.mybluemix.net/
-	https://https-redirect-${random-word}.mybluemix.net/
+	https://redirect-demo-${random-word}.mybluemix.net/
+	https://redirect-demo-${random-word}.mybluemix.net/
 
 And, if you use `http`, then you will be redirected `https`.
 
