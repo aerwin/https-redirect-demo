@@ -9,7 +9,7 @@ The code makes use of the [Express](http://expressjs.com/) web application frame
 * Using [`req.secure`](http://expressjs.com/api#req.secure) to determine if `http` or `https` was requested
 	* NOTE: `req.secure` provides a shortcut to doing a string compare against [`req.protocol`](http://expressjs.com/api#req.protocol), which is set by Express based on the `X-Forwarded-Proto` request header
 
-A live version of `https-redirect-demo` is running on Bluemix here: [http://https-redirect-demo.mybluemix.net/](http://https-redirect-demo.mybluemix.net/)
+A live version of `https-redirect-demo` is running on Bluemix here: [http://redirect-demo.mybluemix.net/](http://redirect-demo.mybluemix.net/)
 
 Other Approaches
 ================
