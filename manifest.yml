@@ -2,7 +2,7 @@ applications:
 - name: https-redirect-demo
 
   # using the random symbol will assign a unique hostname for this app
-  host: https-redirect-${random-word}
+  host: redirect-demo-${random-word}
   
   command: node server.js
 

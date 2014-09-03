@@ -3,11 +3,24 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Bluemix HTTPS Demo</title>
+		<title>Bluemix HTTPS Redirect Demo</title>
 		
+		<script>
+			function onloadCallback() {
+    			//alert("Page is loaded");
+    			document.getElementById('location').textContent = window.location;
+    			document.getElementById('protocol').textContent = window.location.protocol;
+			}
+		</script>
 	</head>
-	<body>
-		<h1>Welcome to the Bluemix HTTPS Demo</h1>
-		<p>If you're seeing this page, the protocol should be HTTPS!</p>
+	<body  onload="onloadCallback()"">
+		<h1>Bluemix HTTPS Redirect Demo!</h1>
+		<p><strong>Location:</strong> <span id="location"></span></p>
+		<p><strong>Protocol:</strong> <span id="protocol"></span></p>
+		<p>This page is served from a Node.js app that demonstrates how to redirect <code>http</code> traffic to <code>https</code> using the Express framework.</p>
+		<p>If you're seeing this page, the protocol should above should be <code>https</code> even if the original URL used <code>http</code>.</p>
+
+		<hr>
+		<p>Git Repository: <a target="_blank" href="https://github.com/aerwin/https-redirect-demo">https://github.com/aerwin/https-redirect-demo</a></p>
 	</body>
 </html>
