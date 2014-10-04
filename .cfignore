@@ -31,3 +31,11 @@ node_modules
 
 # Eclipse project settings
 .settings
+
+# Eclipse project settings
+.settings
+.project
+
+# Misc files
+.cfignore
+.jshintrc
