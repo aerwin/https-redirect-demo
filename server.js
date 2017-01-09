@@ -5,7 +5,7 @@ var express = require('express');
 var app = express();
 
 // Determine port to listen on
-var port = (process.env.VCAP_APP_PORT || 3000);
+var port = (process.env.PORT || process.env.VCAP_APP_PORT || 3000);
 
 // Enable reverse proxy support in Express. This causes the
 // the "X-Forwarded-Proto" header field to be trusted so its
